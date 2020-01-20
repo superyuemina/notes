@@ -15,7 +15,7 @@ Notes for technical issues
 * Operations
   * Intermediate operations: 
     EX: Stream.filter or Stream.map
-    Return a new stream, lazy, executing an intermediate operation such as filter() does not actually perform any filtering, but instead creates a new stream that, when traversed, contains the elements of the initial stream that match the given predicate.
+    Return a new stream, lazy, executing an intermediate operation such as filter() does not actually perform any filtering, but instead creates a new stream that, when traversed, contains the elements of the initial stream that match the given predicate.\
     *Traversal of the pipeline source does not begin until the terminal operation of the pipeline is executed.*
     * Stateless operations
   * Terminal operations: 
